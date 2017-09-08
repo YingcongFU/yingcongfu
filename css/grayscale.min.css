@@ -21,10 +21,12 @@ h4,
 h5,
 h6 {
   margin: 20 10 35px;
-  text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+}
+h1{
+  text-transform: uppercase;
 }
 p {
   margin: 0 0 25px;
@@ -146,6 +148,8 @@ a:focus {
   color:#D395AA;
 }
 .headshot{
+  margin-top:5%;
+  margin-bottom: 5%;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%
@@ -156,7 +160,8 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    margin-top: 20%;
+    font-size: 80px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
@@ -226,14 +231,22 @@ a:focus {
     transform: scale(1);
   }
 }
+
+.grid{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  }
 .content-section {
   padding-top: 100px;
 }
 .download-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  color: black;
+  background: url(../img/downloads-color-try.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -277,6 +290,70 @@ a:focus {
   outline: none;
   color: black;
   background-color:  #D395AA;
+}
+.view {
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+}
+
+
+.view .mask {
+  background-attachment: fixed;
+}
+
+.view .mask,
+.view .full-bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.view img, .view video {
+  display: block;
+  position: relative;
+}
+.hm-zoom img,
+.hm-zoom video,
+.overlay img,
+.overlay video {
+  transition: all 0.2s linear;
+  position: relative;
+}
+
+.hm-zoom:hover .mask,
+.overlay:hover .mask {
+  opacity: 1;
+}
+
+.hm-zoom:hover img {
+  transform: scale(1.1);
+}
+
+.overlay .mask {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.img-fluid{max-width: 100%;
+    height: auto;
+}
+.hm-grey-strong .mask,
+.hm-grey-strong .full-bg-img {
+  background-color: rgba(158, 158, 158, 0.7);
+}
+.item-info{
+  text-align:center;
+  margin:auto;  
+  color: black;
+}
+.subtitle{
+  text-align: left;
+  font-weight: 500;
+  margin-top:10%;
+  border-bottom: solid 0.2px;
 }
 ul.banner-social-buttons {
   margin-top: 0;
