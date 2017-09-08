@@ -136,13 +136,13 @@ a:focus {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 36px;
+  font-size: 18px;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
 .intro .intro-body .intro-text-highlight {
-  font-size: 18px;
+  font-size: 18px
   color:#D395AA;
 }
 @media (min-width: 768px) {
