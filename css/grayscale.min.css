@@ -203,6 +203,8 @@ a:focus {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
 }
+.about-text{
+  text-align: left;}
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -295,6 +297,9 @@ a:focus {
   overflow: hidden;
   position: relative;
   cursor: default;
+}
+strong{
+  color:#D395AA;
 }
 
 
