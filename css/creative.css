@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Lora', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 }
 
 p {
@@ -80,7 +80,7 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -88,7 +88,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     color: #f05f40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -307,18 +307,18 @@ header .header-content .header-content-inner p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     padding: 0 15px;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -459,7 +459,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     border: none;
     border-radius: 300px;
     font-weight: 700;
