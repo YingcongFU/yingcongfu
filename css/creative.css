@@ -278,7 +278,6 @@ header .header-content .header-content-inner p {
     position: relative;
     display: block;
     /*max-width: 650px;*/
-    margin: 0 auto;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -289,6 +288,7 @@ header .header-content .header-content-inner p {
     position: absolute;
     bottom: 0;
     text-align: center;
+    padding:20px;
     width: 100%;
     height: 100%;
     -webkit-transition: all 0.35s;
@@ -297,6 +297,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    padding:20px;
     width: 100%;
     text-align: center;
     position: absolute;

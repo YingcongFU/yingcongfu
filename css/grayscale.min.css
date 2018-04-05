@@ -20,13 +20,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20 10 35px;
+  margin: 10 10 35px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-}
-h1{
-  text-transform: uppercase;
 }
 p {
   margin: 0 0 25px;
@@ -119,11 +116,16 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
+.title{
+  margin-top:0;
+  padding: 10px 0;
+}
 .intro {
   display: table;
   width: 100%;
   height: auto;
   padding: 100px 0;
+  margin-bottom: 100px;
   text-align: center;
   color: white;
   background: no-repeat bottom center scroll;
@@ -276,13 +278,14 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  font-size: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid  #D395AA;
+  border: 1px solid #D395AA;
   color: #D395AA;
   background-color: transparent;
 }
