@@ -207,6 +207,14 @@ a:focus {
 }
 .about-text{
   text-align: left;}
+.title-text{
+  margin-bottom: 50px
+}
+.section-text{
+  text-align:left;
+  font-size:24px;
+  font-weight: 10px;
+}
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
