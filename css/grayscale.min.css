@@ -22,19 +22,23 @@ h5,
 h6 {
   margin: 10 10 35px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+  line-height: 30px;
+  margin-top:40px;
   letter-spacing: 1px;
 }
 p,li {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  color:darkslategrey;
 }
 @media (min-width: 768px) {
-  p {
-    margin: 0 0 35px;
+  p,li {
+    margin: 0 0 30px;
     font-size: 20px;
     line-height: 1.6;
+    color:darkslategrey;
   }
 }
 a {
@@ -139,6 +143,7 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+
 .project {
   display: table;
   width: 100%;
@@ -146,8 +151,8 @@ a:focus {
   padding: 100px 0;
   margin-bottom: 100px;
   text-align: left;
-  color: black;
   background: no-repeat bottom center scroll;
+  color:black;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -450,8 +455,8 @@ body {
   margin-top:24px;}
 .caption{
   text-align: center;
-  color:lightgrey;
-  font-size:14px;
+  color:darkgrey;
+  font-size:16px;
 }
 .quote{
   line-height: 36px;;
