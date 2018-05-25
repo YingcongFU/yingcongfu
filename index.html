@@ -22,7 +22,7 @@
 
     <title>Yingcong (June) FU</title>
     <link rel="shortcut icon" href="img/headshot.jpg" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/creative.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
             	<h2 class="title"><a href="index.html">Yingcong (June) Fu</a></h2>
             </div>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" id="myTopnav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -72,6 +72,9 @@
                     <li>
                         <a class="page-scroll" href="Resume - Yingcong (June) Fu.pdf">Resume</a>
                     </li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -84,15 +87,15 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-md-8 col-md-offset-2">
                         <!--h1 class="brand-heading">Yingcong FU</h1-->
                         <img class="headshot" src="img/headshot.jpg"><br>            
                         <p class="about-text">I'm a <strong class="about">user experience researcher & designer</strong> with a background in <strong class="about">journalism</strong> and <strong class="about">content strategy</strong>. I found my passion for UX while covering technology as a business reporter. I gained my UX skills from school projects, courses and work experience. I aspire to apply my storytelling and visual communication skills to optimize human-computer interaction experiene and create user-centric products. Currently I'm seeking for job opportunities in <strong class="about">UX</strong> in the Bay Area.</p>
                         <p></p>
                         <p class="about-text">I graduated from  <strong class="about">Northwestern University </strong> with a master's degree in journalism at Medill School, focusing on business and interactive journalism. I earned my bachelor's degree in China, with study abroad experience in Hong Kong and Paris.</p>
-                         <p></p>
-                         <p class="about-text">I'm also a foodie, traveler and scuba diving lover. Feel free to reach me by email yingcongfu2017@u.northwestern.edu.</p>
-                          <a href="Resume.pdf" class="btn btn-default btn-l btn-color">Click Here to Download My Resume</a>
+                        <p></p>
+                        <p class="about-text">I'm also a foodie, traveler and a certified scuba diving lover. Feel free to reach me by email yingcongfu2017@u.northwestern.edu.</p>
+                        <a href="Resume.pdf" class="btn btn-default btn-l btn-color">Click Here to Download My Resume</a>
                       </div>
                 </div>
             </div>
@@ -275,6 +278,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
+    <!--Responsive Hamburger Menu JavaScript -->
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav navbar-nav") {
+        x.className += "responsive";
+    } else {
+        x.className = "nav navbar-nav";
+    }
+}
+</script>
 
 </body>
 

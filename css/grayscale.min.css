@@ -70,7 +70,7 @@ a:focus {
   font-weight: 400;
 }
 .navbar-custom {
-  color:white;
+  color:#303030;
   margin-bottom: 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
@@ -120,7 +120,32 @@ a:focus {
   color:black;
 }
 
-@media (min-width: 768px) {
+.nav .icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav .icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-custom.top-nav-collapse.responsive {position: relative;}
+  .navbar-custom .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-custom .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (min-width: 600px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -327,8 +352,8 @@ a:focus {
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 16px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -337,7 +362,7 @@ a:focus {
 .btn-default {
   border: 2px solid #D395AA;
   color: #D395AA;
-  font-weight: 500;
+  font-weight: 600;
   background-color: transparent;
 }
 .btn-default:hover,
@@ -345,8 +370,15 @@ a:focus {
   border: 2px solid  #D395AA;
   outline: none;
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   background-color:  #D395AA;
+}
+
+@media (min-width: 767px){
+  .btn .btn-default{
+    font-size:20px;
+  }
+
 }
 .view {
   overflow: hidden;
