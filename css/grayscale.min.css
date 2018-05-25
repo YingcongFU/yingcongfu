@@ -78,9 +78,9 @@ a:focus {
   background-color: white;
 }
 .navbar-custom .navbar-toggle {
-  color:white;
+  color:black;
   background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
+  font-size: 18px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -120,32 +120,19 @@ a:focus {
   color:black;
 }
 
-.nav .icon {
-  display: none;
+.navbar-toggler{
+  float: right;
+  display: block;
+}
+.navbar .navbar-custom .-fixed-top .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  .nav .icon {
-    float: right;
-    display: block;
-  }
+@media (min-width: 767px) {
+  .navbar-toggler{
+  display:none;
 }
-
-@media (max-width: 600px) {
-  .navbar-custom.top-nav-collapse.responsive {position: relative;}
-  .navbar-custom .nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbar-custom .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media (min-width: 600px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -507,7 +494,6 @@ body {
 .quote{
   line-height: 36px;;
   color:#D395AA;
-
 }
 .recom{
   font-style:italic;
