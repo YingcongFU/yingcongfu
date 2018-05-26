@@ -200,6 +200,7 @@ a:focus {
   color:#D395AA;
 }
 .headshot{
+  align-items:center;
   margin-top:5%;
   margin-bottom: 5%;
 	width: 200px;
@@ -499,4 +500,6 @@ body {
   font-style:italic;
   text-decoration:underline;
 }
-
+.jour{
+  text-align;left
+}
