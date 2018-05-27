@@ -37,18 +37,18 @@ p,li {
 }
 @media (max-width: 480px){
   h2, .h2 {
-    font-size: 120%;
+    font-size: 150%;
   }
 
   h3, .h3 {
-    font-size: 120%;
+    font-size: 150%;
   }
   h3, .h3 {
-    font-size: 120%;
+    font-size: 150%;
   }
   p,li {
   margin: 0 0 15px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   color:#303030;
 }
@@ -514,6 +514,6 @@ body {
 .caption{
   text-align: center;
   color:darkgrey;
-  font-size:12px;
+  font-size:14px;
 }
 }
