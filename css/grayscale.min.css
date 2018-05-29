@@ -118,7 +118,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color:black;
+  color:#303030;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -131,18 +131,22 @@ a:focus {
   background-color: black;
 }
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
+ .navbar-custom .nav li a:active{
   outline: none;
-  background-color: black;
 }
 .navbar-custom .nav li.active {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
 }
 .navbar-custom .nav li.active a:hover {
-  color:black;
+  background-color:black;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
 }
 
 .navbar-toggler{
