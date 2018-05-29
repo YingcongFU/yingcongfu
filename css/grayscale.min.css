@@ -68,6 +68,16 @@ a {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+div .icon {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+button{
+  background-color: transparent;
+  border-style: none;
+}
 .link{
   text-decoration: underline;
 }
