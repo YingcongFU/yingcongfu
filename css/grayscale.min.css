@@ -293,8 +293,8 @@ a:focus {
   text-align: center;
 }
 .section-text{
-  margin-top:15px;
-  margin-bottom: 15px;
+  margin-top:50px;
+  margin-bottom: 20px;
   text-align:left;
   font-weight:800;
 }
@@ -335,7 +335,7 @@ a:focus {
   box-sizing: border-box;
   }
 .content-section {
-  padding-top: 20px;
+  padding-top: 100px;
 }
 .download-section {
   width: 100%;
