@@ -22,9 +22,9 @@ h5,
 h6 {
   margin: 10 10 25px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 30px;
-  margin-top:40px;
+  margin-top:30px;
   letter-spacing: 1px;
 
 }
@@ -55,12 +55,19 @@ p,li {
 }
 }
 @media (min-width: 767px) {
-  p,li{
+  p{
     margin: 0 0 20px;
     font-size: 18px;
     font-weight:400;
     line-height: 1.8;
-     color:#303030;
+    color:#303030;
+  }
+  li{
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 1.5;
+    color:#303030;
   }
 
 }
@@ -295,10 +302,10 @@ a:focus {
   text-align: center;
 }
 .section-text{
-  margin-top:50px;
+  margin-top:40px;
   margin-bottom: 20px;
   text-align:left;
-  font-weight:800;
+  font-weight:600;
 }
 @-webkit-keyframes pulse {
   0% {
