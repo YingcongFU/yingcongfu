@@ -521,7 +521,7 @@ body {
 .caption{
   text-align: center;
   color:darkgrey;
-  font-size:16px;
+  font-size:14px;
 }
 .quote{
   color:#D395AA;
@@ -552,10 +552,3 @@ body {
   line-height: 1.5
 }
 
-@media (max-width: 480px){
-.caption{
-  text-align: center;
-  color:darkgrey;
-  font-size:14px;
-}
-}
