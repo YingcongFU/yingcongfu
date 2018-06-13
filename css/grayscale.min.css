@@ -44,15 +44,9 @@ p,li {
   h3, .h3 {
     font-size: 150%;
   }
-  h3, .h3 {
+  h4, .h4 {
     font-size: 150%;
   }
-  p,li {
-  margin: 0 0 15px;
-  font-size: 16px;
-  line-height: 1.5;
-  color:#303030;
-}
 }
 @media (min-width: 767px) {
   p{
@@ -212,7 +206,8 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 20px 0;
+  margin-top: 100px;
   margin-bottom: 20px;
   text-align: left;
   background: no-repeat bottom center scroll;
