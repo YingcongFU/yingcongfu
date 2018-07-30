@@ -359,7 +359,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 100px;
   }
   .download-section {
     padding: 100px 0;
@@ -546,5 +546,38 @@ body {
 .contact{border:none;}
 .overview{
   line-height: 1.5
+}
+.project-name{
+  text-align:left;
+  font-weight:700;
+  font-size:36px;
+}
+.project-category{
+  text-align:left;
+  font-weight:600;
+  font-size:24px;
+  color:#D395AA;
+}
+.project-description{
+  text-align:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight:500;
+  font-size:18px;
+  color:#aaaaaa;
+}
+.project-img-box {
+    position: relative;
+    display: block;
+    left:35%;
+    width: 50%;
+    padding: 100px 0px;
+}
+.project-text-box {
+    position: relative;
+    display: block;
+    right:15%;
+    width: 80%;
+    padding: 100px 0px;
 }
 
