@@ -512,7 +512,7 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-/* My style*/
+/* Customized Styles*/
 .caption{
   text-align: center;
   color:darkgrey;
@@ -579,5 +579,21 @@ body {
     right:15%;
     width: 80%;
     padding: 100px 0px;
+}
+@media (max-width: 480px){
+  .project-img-box {
+    position: relative;
+    display: block;
+    left:0%;
+    width: 100%;
+    padding: 20px 0px;
+}
+.project-text-box {
+    position: relative;
+    display: block;
+    right:0%;
+    width: 100%;
+    padding: 20px 0px;
+}
 }
 
