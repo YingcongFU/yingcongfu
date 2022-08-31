@@ -91,7 +91,8 @@ button{
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D395AA;
+  /*color: #D395AA;*/
+  color: #303030;
 }
 
 .light {
@@ -230,7 +231,8 @@ a:focus {
 }
 .intro .intro-body .intro-text-highlight {
   font-size: 24px;
-  color:#D395AA;
+  /*color:#D395AA;*/
+  color: #303030
 }
 .headshot{
   align-items:center;
@@ -380,18 +382,19 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 2px solid #D395AA;
-  color: #D395AA;
+  border: 2px solid #303030;
+  /*color: #D395AA;*/
+  color: #303030
   font-weight: 600;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 2px solid  #D395AA;
+  border: 2px solid  #303030;
   outline: none;
   color: black;
   font-weight: 600;
-  background-color:  #D395AA;
+  background-color:  #303030;
 }
 
 @media (max-width: 480px){
@@ -405,7 +408,8 @@ a:focus {
   cursor: default;
 }
 .about{
-  color:#D395AA;
+  /*color:#D395AA;*/
+  color: #303030
 }
 
 
@@ -519,7 +523,8 @@ body {
   font-size:14px;
 }
 .quote{
-  color:#D395AA;
+  /*color:#D395AA;*/
+  color: #303030
 }
 .recom{
   font-style:italic;
@@ -556,7 +561,8 @@ body {
   text-align:left;
   font-weight:600;
   font-size:24px;
-  color:#D395AA;
+  /*color:#D395AA;*/
+  color: #303030;
 }
 .project-description{
   text-align:left;
@@ -591,7 +597,8 @@ body {
   text-align:left;
   font-weight:600;
   font-size:20px;
-  color:#D395AA;
+  /*color:#D395AA;*/
+  color: #303030;
 }
 .project-description{
   text-align:left;
